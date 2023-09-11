@@ -2,10 +2,11 @@
 spring:
 #  database connection
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://aws.connect.psdb.cloud/jl_practice?sslMode=VERIFY_IDENTITY
-    username: ql0pne6xvr0tfqwo965j
-    password: pscale_pw_w1ZiQoQBG75E89aH6dpXMnID708COn7iUgTIU1W7Kw9
+    driver-class-name: dummy
+    url: dummy
+    username: dummy
+    password: dummy
+
 # file upload
   servlet:
     multipart:
@@ -20,11 +21,11 @@ mybatis:
 
 #aws
 aws:
-  endpointUrl: https://s3.cloudLocation.amazonaws.com
-  accessKey: AKIAYDBZD4PQC75O35QL
-  secretKey: s71RuvjDG40q8YDAaOFy+nPTo1LePGfJpS6hUoqy
-  bucketName: springbootbucket-practice
-  region: us-east-2
+  endpointUrl: dummy
+  accessKey: dummy
+  secretKey: dummy
+  bucketName: dummy
+  region: dummy
 
 #spring transaction control
 logging:
